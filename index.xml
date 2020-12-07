@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alexandre Ramé on Alexandre Ramé</title>
+    <link>/</link>
+    <description>Recent content in Alexandre Ramé on Alexandre Ramé</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0200</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>TP Deep Learning RDFIA</title>
+      <link>/rdfia/</link>
+      <pubDate>Mon, 05 Oct 2020 00:00:00 +0200</pubDate>
+      
+      <guid>/rdfia/</guid>
+      <description>
+
+&lt;p&gt;RDFIA / Master DAC &amp;amp; IMA / Sorbonne&lt;/p&gt;
+
+&lt;p&gt;Le cours est organisé par le professeur Matthieu Cord. Vos assistants de TPs auquels
+vous devrez envoyer vos travaux sont Asya Grechka (asya.grechka@lip6.fr), Alexandre Rame (alexandre.rame@lip6.fr) et moi-même Arthur
+Douillard (arthur.douillard@lip6.fr).&lt;/p&gt;
+
+&lt;p&gt;Pour simplifier notre tâche vous êtes priés de nous adresser les mails avec pour objet
+&lt;code&gt;[RDFIA][TP-&amp;lt;numero&amp;gt;]&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;rappels&#34;&gt;Rappels&lt;/h2&gt;
+
+&lt;p&gt;Les TPs seront en Python3 et plusieurs bibliothèques seront utilisées. Voici
+quelques liens pour rappel, ou pour vous familiariser en avance:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://learnxinyminutes.com/docs/python/&#34; target=&#34;_blank&#34;&gt;Rappel de Python&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.scipy.org/doc/numpy/user/quickstart.html&#34; target=&#34;_blank&#34;&gt;Rappel de Numpy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://scikit-learn.org/stable/tutorial/basic/tutorial.html&#34; target=&#34;_blank&#34;&gt;Introduction de Scikit-Learn&lt;/a&gt;. L&amp;rsquo;api est très similaire quelque soit l&amp;rsquo;algorithme (init / fit / predict)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html&#34; target=&#34;_blank&#34;&gt;Introduction de Pytorch&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Les cours seront ajoutés au fur et à mesure.&lt;/p&gt;
+
+&lt;h2 id=&#34;tp-1-2-sift-bag-of-words&#34;&gt;TP 1 - 2 : SIFT / Bag of words&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;7 &amp;amp; 14 &amp;amp; 21 Octobre 2020&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;del&gt;A rendre pour avant le 21 Octobre 2020 à 23h59.&lt;/del&gt;
+&lt;strong&gt;MaJ: A rendre pour avant le 30 Octobre 2020 à 23h59.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Suite à la crise du Covid vous êtes présents en demi-groupes.  Ce TP 1-2
+sera fait en 3 semaines (7, 14, et 21 Octobre). Le deuxième groupe ne nous aura donc que une fois en
+présentiel mais nous serons plus indulgents, de plus nous pourrons répondre aux questions le 28 Octobre.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Pour les prochains TPs (3 -&amp;gt; $\infty$) nous continuerons au rythme normal des années précédentes, il
+faudra donc commencer le TP en remote.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Énoncé: &lt;a href=&#34;/files/rdfia_resources/tp1-2.pdf&#34;&gt;TP1-2.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Colab: &lt;a href=&#34;https://colab.research.google.com/drive/1jL8yy91z6RI0JJIxMQi6Odkh3uMeb7-H?usp=sharing&#34; target=&#34;_blank&#34;&gt;colab&lt;/a&gt; (faire &amp;ldquo;File -&amp;gt; Save a copy in Drive&amp;rdquo;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;NB: There is a mistake in our conv_separable, you should see that the images with horizontal and vertical gradients have been inversed. This only impair the visualization of the function compute_grad, but no worry the quality of the final sift stay the same.&lt;/p&gt;
+
+&lt;p&gt;Pour aller plus loin, TP sur les SVMs (non noté!):&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Énoncé: &lt;a href=&#34;/files/rdfia_resources/tp2-bis.pdf&#34;&gt;TP2-bis.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Colab: &lt;a href=&#34;https://colab.research.google.com/drive/1xkgV6yz2E6_41aYdIC8uSro6gl7eLHn6?usp=sharing&#34; target=&#34;_blank&#34;&gt;colab&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;tp-3-4-introduction-aux-réseaux-de-neurones&#34;&gt;TP 3 - 4: Introduction aux réseaux de neurones&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;28 Octobre &amp;amp; 4 Novembre 2020&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Énoncé: &lt;a href=&#34;/files/rdfia_resources/tp3-4.pdf&#34;&gt;TP3-4.pdf&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Colab: &lt;a href=&#34;https://colab.research.google.com/drive/1MrenVA2opTP0zgut8_Q4O-VUa978Y2DI?usp=sharing&#34; target=&#34;_blank&#34;&gt;colab&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Pour le second groupe, tp en visio à 13h45 ici: &lt;a href=&#34;https://zoom.us/j/97871580043?pwd=NXB6Z29sUGtESTJQOXYvNkp4U0dFZz09&#34; target=&#34;_blank&#34;&gt;Zoom Link&lt;/a&gt;, password &lt;strong&gt;rdfia&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Solution gradient: &lt;a href=&#34;/files/rdfia_resources/tp3-4_math.pdf&#34;&gt;tp3-4_math.pdf&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;tp-5-6-réseaux-convolutionnels-pour-l-image&#34;&gt;TP 5 - 6: Réseaux convolutionnels pour l&amp;rsquo;image&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;18 &amp;amp; 25 Novembre 2020&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Cette fois-ci, les deux groupes auront TPs en même temps, par zoom.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Énoncé: &lt;a href=&#34;/files/rdfia_resources/tp5-6.pdf&#34;&gt;TP5-6.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Colab: &lt;a href=&#34;https://colab.research.google.com/drive/1ZfD37TsJudcyUjff-D8Gagylf-R5NuHd?usp=sharing&#34; target=&#34;_blank&#34;&gt;colab&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Zoom 18 Novembre 16h: &lt;a href=&#34;https://zoom.us/j/98138914049?pwd=ZTVkbWZsc21vS2tKeUF0cWFVeStOdz09&#34; target=&#34;_blank&#34;&gt;zoom link&lt;/a&gt;, password &lt;strong&gt;rdfia&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Zoom 25 Novembre 16h: &lt;a href=&#34;https://zoom.us/j/91842902968?pwd=S3ZxQ1N0TFl6Y0syMyticGdlTHlodz09&#34; target=&#34;_blank&#34;&gt;zoom link&lt;/a&gt;, password &lt;strong&gt;rdfia&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;mises-à-jour&#34;&gt;Mises à jour:&lt;/h4&gt;
+
+&lt;p&gt;2020-10-05, 22:34: Add TP 1-2.&lt;/p&gt;
+
+&lt;p&gt;2020-10-07, 13:35: Add Colab link.&lt;/p&gt;
+
+&lt;p&gt;2020-10-07, 14:15: Change Colab link.&lt;/p&gt;
+
+&lt;p&gt;2020-10-14, 10:54: Update de date de rendu et précision covid.&lt;/p&gt;
+
+&lt;p&gt;2020-10-21, 11:17: Add bonus on svm.&lt;/p&gt;
+
+&lt;p&gt;2020-10-23, 14:32: Add warning about minor mistake.&lt;/p&gt;
+
+&lt;p&gt;2020-10-27, 15:50: Add TP 3-4.&lt;/p&gt;
+
+&lt;p&gt;2020-10-28, 09:27: Fix deadline of TP3-4.&lt;/p&gt;
+
+&lt;p&gt;2020-11-03, 21:14: Ajout d&amp;rsquo;un lien zoom pour le prochain tp du 4 Nov.&lt;/p&gt;
+
+&lt;p&gt;2020-11-03, 14:25: Ajout d&amp;rsquo;une cheatsheet gradient.&lt;/p&gt;
+
+&lt;p&gt;2020-11-16, 12:42: Ajout du TP5-6 conv.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Continuum</title>
+      <link>/project/continuum/</link>
+      <pubDate>Mon, 27 Apr 2020 00:00:00 +0200</pubDate>
+      
+      <guid>/project/continuum/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inclearn</title>
+      <link>/project/inclearn/</link>
+      <pubDate>Mon, 27 Apr 2020 00:00:00 +0200</pubDate>
+      
+      <guid>/project/inclearn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Insights from the Future for Continual Learning</title>
+      <link>/publication/ghost/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0100</pubDate>
+      
+      <guid>/publication/ghost/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/2004.13513&#34; target=&#34;_blank&#34;&gt;https://arxiv.org/abs/2004.13513&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Small-Task Incremental Learning</title>
+      <link>/publication/podnet/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0100</pubDate>
+      
+      <guid>/publication/podnet/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/2004.13513&#34; target=&#34;_blank&#34;&gt;https://arxiv.org/abs/2004.13513&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>TP Deep Learning RDFIA</title>
+      <link>/rdfia_2019/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 +0200</pubDate>
+      
+      <guid>/rdfia_2019/</guid>
+      <description>
+
+&lt;h1 id=&#34;tp-deep-learning-rdfia&#34;&gt;TP Deep Learning RDFIA&lt;/h1&gt;
+
+&lt;p&gt;RDFIA / Master DAC &amp;amp; IMA / Sorbonne&lt;/p&gt;
+
+&lt;p&gt;Le cours est organisé par le professeur Matthieu Cord. Vos assistants de TPs auquels
+vous devrez envoyer vos travaux sont Yifu Chen (yifu.chen@lip6.fr) et moi-même Arthur
+Douillard (arthur.douillard@lip6.fr).&lt;/p&gt;
+
+&lt;p&gt;Pour simplifier notre tâche vous êtes priés de nous adresser les mails avec pour objet
+&lt;code&gt;[RDFIA][TP-&amp;lt;numero&amp;gt;]&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;rappels&#34;&gt;Rappels&lt;/h2&gt;
+
+&lt;p&gt;Les TPs seront en Python3 et plusieurs bibliothèques seront utilisées. Voici
+quelques liens pour rappel, ou pour vous familiariser en avance:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://learnxinyminutes.com/docs/python/&#34; target=&#34;_blank&#34;&gt;Rappel de Python&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.scipy.org/doc/numpy/user/quickstart.html&#34; target=&#34;_blank&#34;&gt;Rappel de Numpy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://scikit-learn.org/stable/tutorial/basic/tutorial.html&#34; target=&#34;_blank&#34;&gt;Introduction de Scikit-Learn&lt;/a&gt;. L&amp;rsquo;api est très similaire quelque soit l&amp;rsquo;algorithme (init / fit / predict)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html&#34; target=&#34;_blank&#34;&gt;Introduction de Pytorch&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Les cours seront ajoutés au fur et à mesure.&lt;/p&gt;
+
+&lt;h2 id=&#34;tp-1-2-sift-bag-of-words&#34;&gt;TP 1 - 2 : SIFT / Bag of words&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;18 &amp;amp; 25 Septembre 2019&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Énoncé: &lt;a href=&#34;/files/rdfia_resources/tp1-2.pdf&#34;&gt;TP1-2.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Code et data: &lt;a href=&#34;https://webia.lip6.fr/~douillard/rdfia/tp1-2.zip&#34; target=&#34;_blank&#34;&gt;TP1-2.zip&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Pour ceux n&amp;rsquo;ayant pas réussi à calculer tous les descriptors SIFT du dataset fourni: voici un zip
+les contenant: &lt;a href=&#34;https://webia.lip6.fr/~douillard/rdfia/sift.zip&#34; target=&#34;_blank&#34;&gt;sift.zip&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Voici le genre de résultat que vous aurez pu obtenir:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/figures/rdfia_sift_1.png&#34; alt=&#34;Image sift résultat&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/figures/rdfia_sift_2.png&#34; alt=&#34;Image sift résultat&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tp-3-svm&#34;&gt;TP 3 : SVM&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;2 Octobre 2019&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Énoncé: &lt;a href=&#34;/files/rdfia_resources/tp3.pdf&#34;&gt;TP3.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Bow &lt;a href=&#34;https://webia.lip6.fr/~douillard/rdfia/15_scenes_Xy.npz&#34; target=&#34;_blank&#34;&gt;15_scenes_Xy.npz&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;tp-4-5-introduction-aux-réseaux-de-neurones&#34;&gt;TP 4-5 : Introduction aux réseaux de neurones&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;9 &amp;amp; 16 Octobre 2019&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Énoncé: &lt;a href=&#34;/files/rdfia_resources/tp4-5.pdf&#34;&gt;TP4-5.pdf&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Code: &lt;a href=&#34;https://webia.lip6.fr/~douillard/rdfia/tp4-5.zip&#34; target=&#34;_blank&#34;&gt;TP4-5.zip&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Math formules: &lt;a href=&#34;/files/rdfia_resources/tp4-5_math.pdf&#34;&gt;TP4-5_formula.pdf&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;tp-6-7-réseaux-convolutionnels-pour-l-image&#34;&gt;TP 6-7 : Réseaux convolutionnels pour l&amp;rsquo;image&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;23 &amp;amp; 30 Octobre 2019&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Énoncé: &lt;a href=&#34;/files/rdfia_resources/tp6-7.pdf&#34;&gt;TP6-7.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Code: &lt;a href=&#34;https://webia.lip6.fr/~douillard/rdfia/tp6-7.zip&#34; target=&#34;_blank&#34;&gt;TP6-7.zip&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;tp-8-transfer-learning-par-extraction-de-features-dans-un-cnn&#34;&gt;TP 8: Transfer Learning par extraction de features dans un CNN&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;27 Novembre 2019&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Énoncé: &lt;a href=&#34;/files/rdfia_resources/tp8.pdf&#34;&gt;TP8.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Code: &lt;a href=&#34;https://webia.lip6.fr/~douillard/rdfia/tp8.zip&#34; target=&#34;_blank&#34;&gt;TP8.zip&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;tp-9-visualisation-des-réseaux-de-neurones&#34;&gt;TP 9: Visualisation des réseaux de neurones&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;4 Décembre 2019&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Énoncé: &lt;a href=&#34;/files/rdfia_resources/tp9.pdf&#34;&gt;TP9.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Code: &lt;a href=&#34;https://webia.lip6.fr/~douillard/rdfia/tp9.zip&#34; target=&#34;_blank&#34;&gt;TP9.zip&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;tp-10-11-generative-adversarial-networks&#34;&gt;TP 10-11: Generative Adversarial Networks&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;11 Décembre 2019&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Énoncé: &lt;a href=&#34;/files/rdfia_resources/tp10-11.pdf&#34;&gt;TP10-11.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Code: &lt;a href=&#34;https://webia.lip6.fr/~douillard/rdfia/tp10-11.zip&#34; target=&#34;_blank&#34;&gt;TP10-11.zip&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;mises-à-jour&#34;&gt;Mises à jour:&lt;/h4&gt;
+
+&lt;p&gt;2019-09-25, 14:16: Ajout d&amp;rsquo;un zip sift + deux images résultats&lt;/p&gt;
+
+&lt;p&gt;2019-10-02, 11:15: Ajout du TP 3 + BoW data.&lt;/p&gt;
+
+&lt;p&gt;2019-10-09, 11:07: Ajout du TP 4-5.&lt;/p&gt;
+
+&lt;p&gt;2019-10-16, 12:52: Ajout des formules forward / backward.&lt;/p&gt;
+
+&lt;p&gt;2019-10-23, 12:42: Ajout du TP 6-7.&lt;/p&gt;
+
+&lt;p&gt;2019-10-26, 17:15: Modification de la date du TP 7 + report de la date de rendu.&lt;/p&gt;
+
+&lt;p&gt;2019-11-27, 13:27: Ajout du TP 8.&lt;/p&gt;
+
+&lt;p&gt;2019-12-04, 12:50: Ajout du TP 9, correction de typo + env var pour le TP 8.&lt;/p&gt;
+
+&lt;p&gt;2019-12-11, 13:15: Ajout du TP 10-11.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>PhD Grind</title>
+      <link>/books/phd-grind/</link>
+      <pubDate>Tue, 15 May 2018 00:00:00 +0200</pubDate>
+      
+      <guid>/books/phd-grind/</guid>
+      <description>&lt;p&gt;PhD Grind (&lt;a href=&#34;http://pgbovine.net/PhD-memoir/pguo-PhD-grind.pdf&#34; target=&#34;_blank&#34;&gt;pdf url&lt;/a&gt;) is not
+strictly speaking a book, but rather a pdf memoir. It is the story of a PhD, during
+its six long years, in the USA in Computer Science (Model checking &amp;amp; HCI).&lt;/p&gt;
+
+&lt;p&gt;I found this book fantastic. As a first-year PhD, it really talked to me. I was interested
+to discover the PhD system in the USA, which sounds quite different from what I know
+in France.&lt;/p&gt;
+
+&lt;p&gt;I also very much enjoyed the unfiltered speech of a student who had doubts, failures,
+and success (spoiler: there is a happy ending.)&lt;/p&gt;
+
+&lt;p&gt;If I find motivation, and time, I would like to write such memoir about my own
+thesis.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Ball Lightning</title>
+      <link>/books/ball-lightning/</link>
+      <pubDate>Sun, 13 May 2018 00:00:00 +0200</pubDate>
+      
+      <guid>/books/ball-lightning/</guid>
+      <description>&lt;p&gt;Ball Lightning is an early book of Cixin Liu, the Three-Body Problem trilogy author.
+While not as good as its trilogy, the book was interesting to read because of its theme:
+Science.&lt;/p&gt;
+
+&lt;p&gt;The protagonists try to understand the ball lightning (&lt;a href=&#34;https://en.wikipedia.org/wiki/Ball_lightning&#34; target=&#34;_blank&#34;&gt;a real phenomenon&lt;/a&gt;).
+The whole book is structured around their experiments, their thoughts, and failures.
+The end of the book goes a bit far, and is clearly &amp;ldquo;science-fiction&amp;rdquo;, but still in a &amp;ldquo;hard&amp;rdquo;, plausible way.
+This won&amp;rsquo;t surprise those who read the trilogy.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mr Ma and Son</title>
+      <link>/books/mr-ma-and-son/</link>
+      <pubDate>Sun, 13 May 2018 00:00:00 +0200</pubDate>
+      
+      <guid>/books/mr-ma-and-son/</guid>
+      <description>&lt;p&gt;This is the story of a father and his son. Coming from Beijing, they come to London with different goals. The son hopes to learn and to held a business, the father just follow the stream.&lt;/p&gt;
+
+&lt;p&gt;The story itself isn&amp;rsquo;t very interesting. What I liked in this book was the description of racism and inter-generational gap.&lt;/p&gt;
+
+&lt;p&gt;English men are deeply racist against Chinese men, but the latter &amp;mdash;especially the old generation&amp;ndash; also hold preconceived ideas on the western culture.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Ride of a Lifetime</title>
+      <link>/books/ride-of-a-lifetime/</link>
+      <pubDate>Sun, 13 May 2018 00:00:00 +0200</pubDate>
+      
+      <guid>/books/ride-of-a-lifetime/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.gatesnotes.com/Books/The-Ride-of-a-Lifetime&#34; target=&#34;_blank&#34;&gt;https://www.gatesnotes.com/Books/The-Ride-of-a-Lifetime&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Three-Body Problem trilogy</title>
+      <link>/books/three-body/</link>
+      <pubDate>Sun, 13 May 2018 00:00:00 +0200</pubDate>
+      
+      <guid>/books/three-body/</guid>
+      <description>&lt;p&gt;Except the Sun Tzu&amp;rsquo;s Art of War, the Three-Body Problem first tome was my first
+Chinese book. The first book set the tone, starting in communist-era in the 70s.&lt;/p&gt;
+
+&lt;p&gt;When I introduce this trilogy to friends, I often say &amp;mdash;no spoilers:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Several of world best theoretical physicists suicide. They all leave a note,
+saying in substance: &amp;ldquo;Physic doesn&amp;rsquo;t exist&amp;rdquo;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;You don&amp;rsquo;t need to know more to go buy this book. It&amp;rsquo;s hard-science-fiction at its
+best.&lt;/p&gt;
+
+&lt;p&gt;WARNING, SPOILERS-AHEAD:&lt;/p&gt;
+
+&lt;p&gt;The first half of the first book (The Three-Body Problem) is very good. The initial
+problem, physic doesn&amp;rsquo;t exist, is both original and extremely exciting. I dislike
+the second half, especially the explanation about sophons and how they would
+communicate by quantic entanglement (&lt;a href=&#34;https://briankoberlein.com/blog/quantum-entanglement/&#34; target=&#34;_blank&#34;&gt;which doesn&amp;rsquo;t work like this&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;The second book was particularly surprising. I really like the Wallfacers concepts:
+four men whose objective is to find a way to defeat high-tech aliens in 300 years.
+And they have to keep their plans secret to avoid leaking info through the sophons.
+The jump in the future was similar to the movie &lt;em&gt;the 5th element&lt;/em&gt; where everything
+just seems crazy. And finally come the key idea of this book, and trilogy: the dark forest
+hypothesis. It&amp;rsquo;s both terrifying and plausible.&lt;/p&gt;
+
+&lt;p&gt;The third book is at first nice, a lot of tech progress is done. However its very
+end seems a bit far fetched, closer to fantasy than hard-sf. But I guess when talking
+about eons in the future, anything is possible.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Very Short Introduction: Food</title>
+      <link>/books/very-short-intro-food/</link>
+      <pubDate>Sun, 13 May 2018 00:00:00 +0200</pubDate>
+      
+      <guid>/books/very-short-intro-food/</guid>
+      <description>&lt;p&gt;Very Short Introduction (VSI) is an Oxford collection about various subjects, ranging from humanities
+(arts, religion, politics, etc.) to very technical field (neuroscience, physics, etc.). With a small
+format (~100 pages), they aim to be a good introduction.&lt;/p&gt;
+
+&lt;p&gt;VSI: Food fulfills perfectly this mission. The book is simple enough for a neophyte in food to understand,
+and still manages to cover a wide breadth of topics, all centered around food. It&amp;rsquo;s far easier than its
+cousin VSI: Nutrition.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

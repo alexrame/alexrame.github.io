@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications on Alexandre Ramé</title>
+    <link>/publication/</link>
+    <description>Recent content in Publications on Alexandre Ramé</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Insights from the Future for Continual Learning</title>
+      <link>/publication/ghost/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0100</pubDate>
+      
+      <guid>/publication/ghost/</guid>
+      <description>https://arxiv.org/abs/2004.13513</description>
+    </item>
+    
+    <item>
+      <title>Small-Task Incremental Learning</title>
+      <link>/publication/podnet/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0100</pubDate>
+      
+      <guid>/publication/podnet/</guid>
+      <description>https://arxiv.org/abs/2004.13513</description>
+    </item>
+    
+  </channel>
+</rss>

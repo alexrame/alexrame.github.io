@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Books on Alexandre Ramé</title>
+    <link>/books/</link>
+    <description>Recent content in Books on Alexandre Ramé</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="/books/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>PhD Grind</title>
+      <link>/books/phd-grind/</link>
+      <pubDate>Tue, 15 May 2018 00:00:00 +0200</pubDate>
+      
+      <guid>/books/phd-grind/</guid>
+      <description>PhD Grind (pdf url) is not strictly speaking a book, but rather a pdf memoir. It is the story of a PhD, during its six long years, in the USA in Computer Science (Model checking &amp;amp; HCI).
+I found this book fantastic. As a first-year PhD, it really talked to me. I was interested to discover the PhD system in the USA, which sounds quite different from what I know in France.</description>
+    </item>
+    
+    <item>
+      <title>Ball Lightning</title>
+      <link>/books/ball-lightning/</link>
+      <pubDate>Sun, 13 May 2018 00:00:00 +0200</pubDate>
+      
+      <guid>/books/ball-lightning/</guid>
+      <description>Ball Lightning is an early book of Cixin Liu, the Three-Body Problem trilogy author. While not as good as its trilogy, the book was interesting to read because of its theme: Science.
+The protagonists try to understand the ball lightning (a real phenomenon). The whole book is structured around their experiments, their thoughts, and failures. The end of the book goes a bit far, and is clearly &amp;ldquo;science-fiction&amp;rdquo;, but still in a &amp;ldquo;hard&amp;rdquo;, plausible way.</description>
+    </item>
+    
+    <item>
+      <title>Mr Ma and Son</title>
+      <link>/books/mr-ma-and-son/</link>
+      <pubDate>Sun, 13 May 2018 00:00:00 +0200</pubDate>
+      
+      <guid>/books/mr-ma-and-son/</guid>
+      <description>This is the story of a father and his son. Coming from Beijing, they come to London with different goals. The son hopes to learn and to held a business, the father just follow the stream.
+The story itself isn&amp;rsquo;t very interesting. What I liked in this book was the description of racism and inter-generational gap.
+English men are deeply racist against Chinese men, but the latter &amp;mdash;especially the old generation&amp;ndash; also hold preconceived ideas on the western culture.</description>
+    </item>
+    
+    <item>
+      <title>The Ride of a Lifetime</title>
+      <link>/books/ride-of-a-lifetime/</link>
+      <pubDate>Sun, 13 May 2018 00:00:00 +0200</pubDate>
+      
+      <guid>/books/ride-of-a-lifetime/</guid>
+      <description>https://www.gatesnotes.com/Books/The-Ride-of-a-Lifetime</description>
+    </item>
+    
+    <item>
+      <title>The Three-Body Problem trilogy</title>
+      <link>/books/three-body/</link>
+      <pubDate>Sun, 13 May 2018 00:00:00 +0200</pubDate>
+      
+      <guid>/books/three-body/</guid>
+      <description>Except the Sun Tzu&amp;rsquo;s Art of War, the Three-Body Problem first tome was my first Chinese book. The first book set the tone, starting in communist-era in the 70s.
+When I introduce this trilogy to friends, I often say &amp;mdash;no spoilers:
+ Several of world best theoretical physicists suicide. They all leave a note, saying in substance: &amp;ldquo;Physic doesn&amp;rsquo;t exist&amp;rdquo;.
+ You don&amp;rsquo;t need to know more to go buy this book.</description>
+    </item>
+    
+    <item>
+      <title>Very Short Introduction: Food</title>
+      <link>/books/very-short-intro-food/</link>
+      <pubDate>Sun, 13 May 2018 00:00:00 +0200</pubDate>
+      
+      <guid>/books/very-short-intro-food/</guid>
+      <description>Very Short Introduction (VSI) is an Oxford collection about various subjects, ranging from humanities (arts, religion, politics, etc.) to very technical field (neuroscience, physics, etc.). With a small format (~100 pages), they aim to be a good introduction.
+VSI: Food fulfills perfectly this mission. The book is simple enough for a neophyte in food to understand, and still manages to cover a wide breadth of topics, all centered around food. It&amp;rsquo;s far easier than its cousin VSI: Nutrition.</description>
+    </item>
+    
+  </channel>
+</rss>
