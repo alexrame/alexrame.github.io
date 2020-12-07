@@ -11,123 +11,11 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>TP Deep Learning RDFIA</title>
-      <link>/rdfia/</link>
-      <pubDate>Mon, 05 Oct 2020 00:00:00 +0200</pubDate>
-      
-      <guid>/rdfia/</guid>
-      <description>
-
-&lt;p&gt;RDFIA / Master DAC &amp;amp; IMA / Sorbonne&lt;/p&gt;
-
-&lt;p&gt;Le cours est organisé par le professeur Matthieu Cord. Vos assistants de TPs auquels
-vous devrez envoyer vos travaux sont Asya Grechka (asya.grechka@lip6.fr), Alexandre Rame (alexandre.rame@lip6.fr) et moi-même Arthur
-Douillard (arthur.douillard@lip6.fr).&lt;/p&gt;
-
-&lt;p&gt;Pour simplifier notre tâche vous êtes priés de nous adresser les mails avec pour objet
-&lt;code&gt;[RDFIA][TP-&amp;lt;numero&amp;gt;]&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;rappels&#34;&gt;Rappels&lt;/h2&gt;
-
-&lt;p&gt;Les TPs seront en Python3 et plusieurs bibliothèques seront utilisées. Voici
-quelques liens pour rappel, ou pour vous familiariser en avance:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://learnxinyminutes.com/docs/python/&#34; target=&#34;_blank&#34;&gt;Rappel de Python&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.scipy.org/doc/numpy/user/quickstart.html&#34; target=&#34;_blank&#34;&gt;Rappel de Numpy&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://scikit-learn.org/stable/tutorial/basic/tutorial.html&#34; target=&#34;_blank&#34;&gt;Introduction de Scikit-Learn&lt;/a&gt;. L&amp;rsquo;api est très similaire quelque soit l&amp;rsquo;algorithme (init / fit / predict)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html&#34; target=&#34;_blank&#34;&gt;Introduction de Pytorch&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Les cours seront ajoutés au fur et à mesure.&lt;/p&gt;
-
-&lt;h2 id=&#34;tp-1-2-sift-bag-of-words&#34;&gt;TP 1 - 2 : SIFT / Bag of words&lt;/h2&gt;
-
-&lt;p&gt;&lt;em&gt;7 &amp;amp; 14 &amp;amp; 21 Octobre 2020&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;del&gt;A rendre pour avant le 21 Octobre 2020 à 23h59.&lt;/del&gt;
-&lt;strong&gt;MaJ: A rendre pour avant le 30 Octobre 2020 à 23h59.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Suite à la crise du Covid vous êtes présents en demi-groupes.  Ce TP 1-2
-sera fait en 3 semaines (7, 14, et 21 Octobre). Le deuxième groupe ne nous aura donc que une fois en
-présentiel mais nous serons plus indulgents, de plus nous pourrons répondre aux questions le 28 Octobre.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Pour les prochains TPs (3 -&amp;gt; $\infty$) nous continuerons au rythme normal des années précédentes, il
-faudra donc commencer le TP en remote.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Énoncé: &lt;a href=&#34;/files/rdfia_resources/tp1-2.pdf&#34;&gt;TP1-2.pdf&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Colab: &lt;a href=&#34;https://colab.research.google.com/drive/1jL8yy91z6RI0JJIxMQi6Odkh3uMeb7-H?usp=sharing&#34; target=&#34;_blank&#34;&gt;colab&lt;/a&gt; (faire &amp;ldquo;File -&amp;gt; Save a copy in Drive&amp;rdquo;)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;NB: There is a mistake in our conv_separable, you should see that the images with horizontal and vertical gradients have been inversed. This only impair the visualization of the function compute_grad, but no worry the quality of the final sift stay the same.&lt;/p&gt;
-
-&lt;p&gt;Pour aller plus loin, TP sur les SVMs (non noté!):&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Énoncé: &lt;a href=&#34;/files/rdfia_resources/tp2-bis.pdf&#34;&gt;TP2-bis.pdf&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Colab: &lt;a href=&#34;https://colab.research.google.com/drive/1xkgV6yz2E6_41aYdIC8uSro6gl7eLHn6?usp=sharing&#34; target=&#34;_blank&#34;&gt;colab&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;tp-3-4-introduction-aux-réseaux-de-neurones&#34;&gt;TP 3 - 4: Introduction aux réseaux de neurones&lt;/h2&gt;
-
-&lt;p&gt;&lt;em&gt;28 Octobre &amp;amp; 4 Novembre 2020&lt;/em&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Énoncé: &lt;a href=&#34;/files/rdfia_resources/tp3-4.pdf&#34;&gt;TP3-4.pdf&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Colab: &lt;a href=&#34;https://colab.research.google.com/drive/1MrenVA2opTP0zgut8_Q4O-VUa978Y2DI?usp=sharing&#34; target=&#34;_blank&#34;&gt;colab&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Pour le second groupe, tp en visio à 13h45 ici: &lt;a href=&#34;https://zoom.us/j/97871580043?pwd=NXB6Z29sUGtESTJQOXYvNkp4U0dFZz09&#34; target=&#34;_blank&#34;&gt;Zoom Link&lt;/a&gt;, password &lt;strong&gt;rdfia&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Solution gradient: &lt;a href=&#34;/files/rdfia_resources/tp3-4_math.pdf&#34;&gt;tp3-4_math.pdf&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;tp-5-6-réseaux-convolutionnels-pour-l-image&#34;&gt;TP 5 - 6: Réseaux convolutionnels pour l&amp;rsquo;image&lt;/h2&gt;
-
-&lt;p&gt;&lt;em&gt;18 &amp;amp; 25 Novembre 2020&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Cette fois-ci, les deux groupes auront TPs en même temps, par zoom.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Énoncé: &lt;a href=&#34;/files/rdfia_resources/tp5-6.pdf&#34;&gt;TP5-6.pdf&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Colab: &lt;a href=&#34;https://colab.research.google.com/drive/1ZfD37TsJudcyUjff-D8Gagylf-R5NuHd?usp=sharing&#34; target=&#34;_blank&#34;&gt;colab&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Zoom 18 Novembre 16h: &lt;a href=&#34;https://zoom.us/j/98138914049?pwd=ZTVkbWZsc21vS2tKeUF0cWFVeStOdz09&#34; target=&#34;_blank&#34;&gt;zoom link&lt;/a&gt;, password &lt;strong&gt;rdfia&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;Zoom 25 Novembre 16h: &lt;a href=&#34;https://zoom.us/j/91842902968?pwd=S3ZxQ1N0TFl6Y0syMyticGdlTHlodz09&#34; target=&#34;_blank&#34;&gt;zoom link&lt;/a&gt;, password &lt;strong&gt;rdfia&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;mises-à-jour&#34;&gt;Mises à jour:&lt;/h4&gt;
-
-&lt;p&gt;2020-10-05, 22:34: Add TP 1-2.&lt;/p&gt;
-
-&lt;p&gt;2020-10-07, 13:35: Add Colab link.&lt;/p&gt;
-
-&lt;p&gt;2020-10-07, 14:15: Change Colab link.&lt;/p&gt;
-
-&lt;p&gt;2020-10-14, 10:54: Update de date de rendu et précision covid.&lt;/p&gt;
-
-&lt;p&gt;2020-10-21, 11:17: Add bonus on svm.&lt;/p&gt;
-
-&lt;p&gt;2020-10-23, 14:32: Add warning about minor mistake.&lt;/p&gt;
-
-&lt;p&gt;2020-10-27, 15:50: Add TP 3-4.&lt;/p&gt;
-
-&lt;p&gt;2020-10-28, 09:27: Fix deadline of TP3-4.&lt;/p&gt;
-
-&lt;p&gt;2020-11-03, 21:14: Ajout d&amp;rsquo;un lien zoom pour le prochain tp du 4 Nov.&lt;/p&gt;
-
-&lt;p&gt;2020-11-03, 14:25: Ajout d&amp;rsquo;une cheatsheet gradient.&lt;/p&gt;
-
-&lt;p&gt;2020-11-16, 12:42: Ajout du TP5-6 conv.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Accumulus</title>
-      <link>/project/continuum/</link>
+      <link>/project/accumulus/</link>
       <pubDate>Mon, 27 Apr 2020 00:00:00 +0200</pubDate>
       
-      <guid>/project/continuum/</guid>
+      <guid>/project/accumulus/</guid>
       <description></description>
     </item>
     
@@ -146,6 +34,15 @@ faudra donc commencer le TP en remote.&lt;/strong&gt;&lt;/p&gt;
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0100</pubDate>
       
       <guid>/publication/dice/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lab for sustainability</title>
+      <link>/post/ecology/</link>
+      <pubDate>Sun, 27 Oct 2019 00:00:00 +0200</pubDate>
+      
+      <guid>/post/ecology/</guid>
       <description></description>
     </item>
     
@@ -170,133 +67,12 @@ faudra donc commencer le TP en remote.&lt;/strong&gt;&lt;/p&gt;
     </item>
     
     <item>
-      <title>TP Deep Learning RDFIA</title>
-      <link>/rdfia_2019/</link>
-      <pubDate>Thu, 28 Jun 2018 00:00:00 +0200</pubDate>
+      <title>PRAIRIE Artificial Intelligence Summer School: key takeaways</title>
+      <link>/post/prairie/</link>
+      <pubDate>Fri, 27 Jul 2018 00:00:00 +0200</pubDate>
       
-      <guid>/rdfia_2019/</guid>
-      <description>
-
-&lt;h1 id=&#34;tp-deep-learning-rdfia&#34;&gt;TP Deep Learning RDFIA&lt;/h1&gt;
-
-&lt;p&gt;RDFIA / Master DAC &amp;amp; IMA / Sorbonne&lt;/p&gt;
-
-&lt;p&gt;Le cours est organisé par le professeur Matthieu Cord. Vos assistants de TPs auquels
-vous devrez envoyer vos travaux sont Yifu Chen (yifu.chen@lip6.fr) et moi-même Arthur
-Douillard (arthur.douillard@lip6.fr).&lt;/p&gt;
-
-&lt;p&gt;Pour simplifier notre tâche vous êtes priés de nous adresser les mails avec pour objet
-&lt;code&gt;[RDFIA][TP-&amp;lt;numero&amp;gt;]&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;rappels&#34;&gt;Rappels&lt;/h2&gt;
-
-&lt;p&gt;Les TPs seront en Python3 et plusieurs bibliothèques seront utilisées. Voici
-quelques liens pour rappel, ou pour vous familiariser en avance:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://learnxinyminutes.com/docs/python/&#34; target=&#34;_blank&#34;&gt;Rappel de Python&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.scipy.org/doc/numpy/user/quickstart.html&#34; target=&#34;_blank&#34;&gt;Rappel de Numpy&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://scikit-learn.org/stable/tutorial/basic/tutorial.html&#34; target=&#34;_blank&#34;&gt;Introduction de Scikit-Learn&lt;/a&gt;. L&amp;rsquo;api est très similaire quelque soit l&amp;rsquo;algorithme (init / fit / predict)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html&#34; target=&#34;_blank&#34;&gt;Introduction de Pytorch&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Les cours seront ajoutés au fur et à mesure.&lt;/p&gt;
-
-&lt;h2 id=&#34;tp-1-2-sift-bag-of-words&#34;&gt;TP 1 - 2 : SIFT / Bag of words&lt;/h2&gt;
-
-&lt;p&gt;&lt;em&gt;18 &amp;amp; 25 Septembre 2019&lt;/em&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Énoncé: &lt;a href=&#34;/files/rdfia_resources/tp1-2.pdf&#34;&gt;TP1-2.pdf&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Code et data: &lt;a href=&#34;https://webia.lip6.fr/~douillard/rdfia/tp1-2.zip&#34; target=&#34;_blank&#34;&gt;TP1-2.zip&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Pour ceux n&amp;rsquo;ayant pas réussi à calculer tous les descriptors SIFT du dataset fourni: voici un zip
-les contenant: &lt;a href=&#34;https://webia.lip6.fr/~douillard/rdfia/sift.zip&#34; target=&#34;_blank&#34;&gt;sift.zip&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Voici le genre de résultat que vous aurez pu obtenir:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/figures/rdfia_sift_1.png&#34; alt=&#34;Image sift résultat&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/figures/rdfia_sift_2.png&#34; alt=&#34;Image sift résultat&#34; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;tp-3-svm&#34;&gt;TP 3 : SVM&lt;/h2&gt;
-
-&lt;p&gt;&lt;em&gt;2 Octobre 2019&lt;/em&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Énoncé: &lt;a href=&#34;/files/rdfia_resources/tp3.pdf&#34;&gt;TP3.pdf&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Bow &lt;a href=&#34;https://webia.lip6.fr/~douillard/rdfia/15_scenes_Xy.npz&#34; target=&#34;_blank&#34;&gt;15_scenes_Xy.npz&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;tp-4-5-introduction-aux-réseaux-de-neurones&#34;&gt;TP 4-5 : Introduction aux réseaux de neurones&lt;/h2&gt;
-
-&lt;p&gt;&lt;em&gt;9 &amp;amp; 16 Octobre 2019&lt;/em&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Énoncé: &lt;a href=&#34;/files/rdfia_resources/tp4-5.pdf&#34;&gt;TP4-5.pdf&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Code: &lt;a href=&#34;https://webia.lip6.fr/~douillard/rdfia/tp4-5.zip&#34; target=&#34;_blank&#34;&gt;TP4-5.zip&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Math formules: &lt;a href=&#34;/files/rdfia_resources/tp4-5_math.pdf&#34;&gt;TP4-5_formula.pdf&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;tp-6-7-réseaux-convolutionnels-pour-l-image&#34;&gt;TP 6-7 : Réseaux convolutionnels pour l&amp;rsquo;image&lt;/h2&gt;
-
-&lt;p&gt;&lt;em&gt;23 &amp;amp; 30 Octobre 2019&lt;/em&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Énoncé: &lt;a href=&#34;/files/rdfia_resources/tp6-7.pdf&#34;&gt;TP6-7.pdf&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Code: &lt;a href=&#34;https://webia.lip6.fr/~douillard/rdfia/tp6-7.zip&#34; target=&#34;_blank&#34;&gt;TP6-7.zip&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;tp-8-transfer-learning-par-extraction-de-features-dans-un-cnn&#34;&gt;TP 8: Transfer Learning par extraction de features dans un CNN&lt;/h2&gt;
-
-&lt;p&gt;&lt;em&gt;27 Novembre 2019&lt;/em&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Énoncé: &lt;a href=&#34;/files/rdfia_resources/tp8.pdf&#34;&gt;TP8.pdf&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Code: &lt;a href=&#34;https://webia.lip6.fr/~douillard/rdfia/tp8.zip&#34; target=&#34;_blank&#34;&gt;TP8.zip&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;tp-9-visualisation-des-réseaux-de-neurones&#34;&gt;TP 9: Visualisation des réseaux de neurones&lt;/h2&gt;
-
-&lt;p&gt;&lt;em&gt;4 Décembre 2019&lt;/em&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Énoncé: &lt;a href=&#34;/files/rdfia_resources/tp9.pdf&#34;&gt;TP9.pdf&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Code: &lt;a href=&#34;https://webia.lip6.fr/~douillard/rdfia/tp9.zip&#34; target=&#34;_blank&#34;&gt;TP9.zip&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;tp-10-11-generative-adversarial-networks&#34;&gt;TP 10-11: Generative Adversarial Networks&lt;/h2&gt;
-
-&lt;p&gt;&lt;em&gt;11 Décembre 2019&lt;/em&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Énoncé: &lt;a href=&#34;/files/rdfia_resources/tp10-11.pdf&#34;&gt;TP10-11.pdf&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Code: &lt;a href=&#34;https://webia.lip6.fr/~douillard/rdfia/tp10-11.zip&#34; target=&#34;_blank&#34;&gt;TP10-11.zip&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;mises-à-jour&#34;&gt;Mises à jour:&lt;/h4&gt;
-
-&lt;p&gt;2019-09-25, 14:16: Ajout d&amp;rsquo;un zip sift + deux images résultats&lt;/p&gt;
-
-&lt;p&gt;2019-10-02, 11:15: Ajout du TP 3 + BoW data.&lt;/p&gt;
-
-&lt;p&gt;2019-10-09, 11:07: Ajout du TP 4-5.&lt;/p&gt;
-
-&lt;p&gt;2019-10-16, 12:52: Ajout des formules forward / backward.&lt;/p&gt;
-
-&lt;p&gt;2019-10-23, 12:42: Ajout du TP 6-7.&lt;/p&gt;
-
-&lt;p&gt;2019-10-26, 17:15: Modification de la date du TP 7 + report de la date de rendu.&lt;/p&gt;
-
-&lt;p&gt;2019-11-27, 13:27: Ajout du TP 8.&lt;/p&gt;
-
-&lt;p&gt;2019-12-04, 12:50: Ajout du TP 9, correction de typo + env var pour le TP 8.&lt;/p&gt;
-
-&lt;p&gt;2019-12-11, 13:15: Ajout du TP 10-11.&lt;/p&gt;
-</description>
+      <guid>/post/prairie/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -317,6 +93,15 @@ les contenant: &lt;a href=&#34;https://webia.lip6.fr/~douillard/rdfia/sift.zip&#
       <guid>/books/three-body/</guid>
       <description>&lt;p&gt;Bouquin unique en son genre, qui plaira aux adeptes de SF comme aux fans de thrillers et aux ufologues. Premier d&amp;rsquo;une trilogie qui aura remporté le prix Hugo.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>From text unlabelled data to multilingual representations</title>
+      <link>/post/multilingual/</link>
+      <pubDate>Thu, 27 Jul 2017 00:00:00 +0200</pubDate>
+      
+      <guid>/post/multilingual/</guid>
+      <description></description>
     </item>
     
     <item>

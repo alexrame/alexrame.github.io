@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NLP on Alexandre Ramé</title>
+    <link>/tags/nlp/</link>
+    <description>Recent content in NLP on Alexandre Ramé</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Thu, 27 Jul 2017 00:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="/tags/nlp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>From text unlabelled data to multilingual representations</title>
+      <link>/post/multilingual/</link>
+      <pubDate>Thu, 27 Jul 2017 00:00:00 +0200</pubDate>
+      
+      <guid>/post/multilingual/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

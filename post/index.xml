@@ -12,5 +12,32 @@
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Lab for sustainability</title>
+      <link>/post/ecology/</link>
+      <pubDate>Sun, 27 Oct 2019 00:00:00 +0200</pubDate>
+      
+      <guid>/post/ecology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PRAIRIE Artificial Intelligence Summer School: key takeaways</title>
+      <link>/post/prairie/</link>
+      <pubDate>Fri, 27 Jul 2018 00:00:00 +0200</pubDate>
+      
+      <guid>/post/prairie/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>From text unlabelled data to multilingual representations</title>
+      <link>/post/multilingual/</link>
+      <pubDate>Thu, 27 Jul 2017 00:00:00 +0200</pubDate>
+      
+      <guid>/post/multilingual/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
