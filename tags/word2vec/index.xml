@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects on Alexandre Ramé</title>
-    <link>/project/</link>
-    <description>Recent content in Projects on Alexandre Ramé</description>
+    <title>word2vec on Alexandre Ramé</title>
+    <link>/tags/word2vec/</link>
+    <description>Recent content in word2vec on Alexandre Ramé</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Mon, 27 Apr 2020 00:00:00 +0200</lastBuildDate>
     
-	<atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/word2vec/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>

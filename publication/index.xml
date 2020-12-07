@@ -13,21 +13,48 @@
     
     
     <item>
-      <title>Insights from the Future for Continual Learning</title>
-      <link>/publication/ghost/</link>
+      <title>Mixmo: TBA</title>
+      <link>/publication/mixmo/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0100</pubDate>
+      
+      <guid>/publication/mixmo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DICE: TBA</title>
+      <link>/publication/dice/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0100</pubDate>
       
-      <guid>/publication/ghost/</guid>
+      <guid>/publication/dice/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CORE: Color Regression for Multiple Colors Fashion Garments</title>
+      <link>/publication/core/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0200</pubDate>
+      
+      <guid>/publication/core/</guid>
+      <description>https://arxiv.org/abs/2010.02849</description>
+    </item>
+    
+    <item>
+      <title>OMNIA Faster R-CNN: Detection in the Wild through Dataset Merging and Soft Distillation</title>
+      <link>/publication/omnia/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0100</pubDate>
+      
+      <guid>/publication/omnia/</guid>
       <description>https://arxiv.org/abs/2004.13513</description>
     </item>
     
     <item>
-      <title>Small-Task Incremental Learning</title>
-      <link>/publication/podnet/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0100</pubDate>
+      <title>Leveraging Weakly Annotated Data for Fashion Image Retrieval and Label Prediction</title>
+      <link>/publication/weakly/</link>
+      <pubDate>Mon, 01 Aug 2016 00:00:00 +0200</pubDate>
       
-      <guid>/publication/podnet/</guid>
-      <description>https://arxiv.org/abs/2004.13513</description>
+      <guid>/publication/weakly/</guid>
+      <description>https://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w32/Corbiere_Leveraging_Weakly_Annotated_ICCV_2017_paper.pdf</description>
     </item>
     
   </channel>
