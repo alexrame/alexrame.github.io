@@ -11,6 +11,16 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Terre Errante</title>
+      <link>/books/wandering-earth/</link>
+      <pubDate>Tue, 08 Dec 2020 00:00:00 +0100</pubDate>
+      
+      <guid>/books/wandering-earth/</guid>
+      <description>&lt;p&gt;Un condensé de la magie de Liu Cixin: la volonté de coller au plus près à la science malgré quelques pré-requis SF, une poésie toute chinoise sublimant ce monde qui apparaît devant les yeux du lecteur, une réflexion philosophique à tiroirs infinis poussant parfois à relire plusieurs fois les mêmes passages et à y penser sous 4 angles différents, des échos énormes aux plus grandes problématiques actuelles. Nous savons maintenant que notre Terre est finie, limitée. Mais dans cette nouvelle, c&amp;rsquo;est notre lumière dans le noir, notre point de repère universel qui est en danger: c&amp;rsquo;est bien notre Soleil qui est sur le point de mourir.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Accumulus</title>
       <link>/project/accumulus/</link>
       <pubDate>Mon, 27 Apr 2020 00:00:00 +0200</pubDate>
@@ -76,22 +86,12 @@
     </item>
     
     <item>
-      <title>Ball Lightning</title>
-      <link>/books/ball-lightning/</link>
-      <pubDate>Sun, 13 May 2018 00:00:00 +0200</pubDate>
-      
-      <guid>/books/ball-lightning/</guid>
-      <description>&lt;p&gt;Un bouquin passionnant, dont la fin décevra les adeptes de hard-sciences.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>The Three-Body Problem trilogy</title>
       <link>/books/three-body/</link>
       <pubDate>Sun, 13 May 2018 00:00:00 +0200</pubDate>
       
       <guid>/books/three-body/</guid>
-      <description>&lt;p&gt;Bouquin unique en son genre, qui plaira aux adeptes de SF comme aux fans de thrillers et aux ufologues. Premier d&amp;rsquo;une trilogie qui aura remporté le prix Hugo.&lt;/p&gt;
+      <description>&lt;p&gt;Bouquin unique, belle porte d&amp;rsquo;entrée à la hard sciences, qui plaira aux adeptes de SF comme aux fans de thrillers et aux ufologues. Premier tome d&amp;rsquo;une trilogie qui aura remporté le prix Hugo.&lt;/p&gt;
 </description>
     </item>
     
