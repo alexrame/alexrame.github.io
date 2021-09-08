@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Fishr: Invariant Gradient Variances for Out-of-distribution Generalization</title>
+      <link>/publication/fishr/</link>
+      <pubDate>Tue, 07 Sep 2021 00:00:00 +0200</pubDate>
+      
+      <guid>/publication/fishr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Terre Errante</title>
       <link>/books/wandering-earth/</link>
       <pubDate>Tue, 08 Dec 2020 00:00:00 +0100</pubDate>
