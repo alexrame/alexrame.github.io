@@ -20,14 +20,6 @@
     
     <url>
     
-      <loc>/project/accumulus/</loc>
-      <lastmod>2020-04-27T00:00:00+02:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>/publication/mixmo/</loc>
       <lastmod>2020-03-01T00:00:00+01:00</lastmod>
     </url>
@@ -38,14 +30,6 @@
     
       <loc>/publication/dice/</loc>
       <lastmod>2020-01-01T00:00:00+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/post/ecology/</loc>
-      <lastmod>2019-10-27T00:00:00+02:00</lastmod>
     </url>
     
   
@@ -68,24 +52,8 @@
     
     <url>
     
-      <loc>/post/prairie/</loc>
-      <lastmod>2018-07-27T00:00:00+02:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>/books/three-body/</loc>
       <lastmod>2018-05-13T00:00:00+02:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/post/multilingual/</loc>
-      <lastmod>2017-07-27T00:00:00+02:00</lastmod>
     </url>
     
   
@@ -100,23 +68,7 @@
     
     <url>
     
-      <loc>/post/</loc>
-      <lastmod>2017-01-01T00:00:00+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>/publication/</loc>
-      <lastmod>2017-01-01T00:00:00+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/talk/</loc>
       <lastmod>2017-01-01T00:00:00+01:00</lastmod>
     </url>
     
@@ -149,24 +101,6 @@
     
     <url>
     
-      <loc>/tags/nlp/</loc>
-      <lastmod>2017-07-27T00:00:00+02:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/project/</loc>
-      <lastmod>2020-04-27T00:00:00+02:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>/publication_types/</loc>
       <priority>0</priority>
     </url>
@@ -176,34 +110,6 @@
     <url>
     
       <loc>/tags/</loc>
-      <lastmod>2017-07-27T00:00:00+02:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/summerschool/</loc>
-      <lastmod>2018-07-27T00:00:00+02:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/sustainability/</loc>
-      <lastmod>2019-10-27T00:00:00+02:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/word2vec/</loc>
-      <lastmod>2020-04-27T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
     
