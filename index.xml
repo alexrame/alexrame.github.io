@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>DyTox: Transformers for Continual Learning with DYnamic TOken eXpansion</title>
+      <link>/publication/dytox/</link>
+      <pubDate>Tue, 07 Sep 2021 00:00:00 +0200</pubDate>
+      
+      <guid>/publication/dytox/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Fishr: Invariant Gradient Variances for Out-of-distribution Generalization</title>
       <link>/publication/fishr/</link>
       <pubDate>Tue, 07 Sep 2021 00:00:00 +0200</pubDate>
