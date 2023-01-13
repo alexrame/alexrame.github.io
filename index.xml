@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Recycling Diverse Models for Out-of-Distribution Generalization</title>
+      <link>/publication/ratatouille/</link>
+      <pubDate>Tue, 20 Dec 2022 00:00:00 +0100</pubDate>
+      
+      <guid>/publication/ratatouille/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Diverse Weight Averaging for Out-of-Distribution Generalization</title>
       <link>/publication/diwa/</link>
       <pubDate>Fri, 20 May 2022 00:00:00 +0200</pubDate>
@@ -29,7 +38,7 @@
     </item>
     
     <item>
-      <title>Fishr: Invariant Gradient Variances for Out-of-distribution Generalization</title>
+      <title>Fishr: Invariant Gradient Variances for Out-of-Distribution Generalization</title>
       <link>/publication/fishr/</link>
       <pubDate>Tue, 07 Sep 2021 00:00:00 +0200</pubDate>
       
