@@ -22,6 +22,24 @@
     </item>
     
     <item>
+      <title>UnIVAL: Unified Model for Image, Video, Audio and Language Tasks</title>
+      <link>/publication/unival/</link>
+      <pubDate>Sat, 20 May 2023 00:00:00 +0200</pubDate>
+      
+      <guid>/publication/unival/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Beyond task performance: evaluating and reducing the flaws of large multimodal models with in-context-learning</title>
+      <link>/publication/icllmm/</link>
+      <pubDate>Fri, 19 May 2023 00:00:00 +0200</pubDate>
+      
+      <guid>/publication/icllmm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Model Ratatouille: Recycling Diverse Models for Out-of-Distribution Generalization</title>
       <link>/publication/ratatouille/</link>
       <pubDate>Tue, 20 Dec 2022 00:00:00 +0100</pubDate>
