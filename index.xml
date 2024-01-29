@@ -11,11 +11,29 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>WARM: On the Benefits of Weight Averaged Reward Models</title>
+      <link>/publication/warm/</link>
+      <pubDate>Mon, 29 Jan 2024 00:00:00 +0100</pubDate>
+      
+      <guid>/publication/warm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Diverse and Efficient Ensembling of Deep Networks</title>
       <link>/publication/phd/</link>
       <pubDate>Wed, 11 Oct 2023 00:00:00 +0200</pubDate>
       
       <guid>/publication/phd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Beyond task performance: evaluating and reducing the flaws of large multimodal models with in-context-learning</title>
+      <link>/publication/icllmm/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0200</pubDate>
+      
+      <guid>/publication/icllmm/</guid>
       <description></description>
     </item>
     
@@ -34,15 +52,6 @@
       <pubDate>Sat, 20 May 2023 00:00:00 +0200</pubDate>
       
       <guid>/publication/unival/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Beyond task performance: evaluating and reducing the flaws of large multimodal models with in-context-learning</title>
-      <link>/publication/icllmm/</link>
-      <pubDate>Fri, 19 May 2023 00:00:00 +0200</pubDate>
-      
-      <guid>/publication/icllmm/</guid>
       <description></description>
     </item>
     
@@ -136,16 +145,6 @@
       
       <guid>/books/three-body/</guid>
       <description>&lt;p&gt;Bouquin unique, belle porte d&amp;rsquo;entrée à la hard sciences, qui plaira aux adeptes de SF comme aux fans de thrillers et aux ufologues. Premier tome d&amp;rsquo;une trilogie qui aura remporté le prix Hugo.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Leveraging Weakly Annotated Data for Fashion Image Retrieval and Label Prediction</title>
-      <link>/publication/weakly/</link>
-      <pubDate>Mon, 01 Aug 2016 00:00:00 +0200</pubDate>
-      
-      <guid>/publication/weakly/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w32/Corbiere_Leveraging_Weakly_Annotated_ICCV_2017_paper.pdf&#34; target=&#34;_blank&#34;&gt;https://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w32/Corbiere_Leveraging_Weakly_Annotated_ICCV_2017_paper.pdf&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
