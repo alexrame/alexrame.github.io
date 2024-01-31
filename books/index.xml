@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Books on Alexandre Ramé</title>
+    <link>/books/</link>
+    <description>Recent content in Books on Alexandre Ramé</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="/books/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Terre Errante</title>
+      <link>/books/wandering-earth/</link>
+      <pubDate>Tue, 08 Dec 2020 00:00:00 +0100</pubDate>
+      
+      <guid>/books/wandering-earth/</guid>
+      <description>Un condensé de la magie de Liu Cixin: la volonté de coller au plus près à la science malgré quelques pré-requis SF, une poésie toute chinoise sublimant ce monde qui apparaît devant les yeux du lecteur, une réflexion philosophique à tiroirs infinis poussant parfois à relire plusieurs fois les mêmes passages et à y penser sous 4 angles différents, des échos énormes aux plus grandes problématiques actuelles. Nous savons maintenant que notre Terre est finie, limitée.</description>
+    </item>
+    
+    <item>
+      <title>The Three-Body Problem trilogy</title>
+      <link>/books/three-body/</link>
+      <pubDate>Sun, 13 May 2018 00:00:00 +0200</pubDate>
+      
+      <guid>/books/three-body/</guid>
+      <description>Bouquin unique, belle porte d&amp;rsquo;entrée à la hard sciences, qui plaira aux adeptes de SF comme aux fans de thrillers et aux ufologues. Premier tome d&amp;rsquo;une trilogie qui aura remporté le prix Hugo.</description>
+    </item>
+    
+  </channel>
+</rss>
