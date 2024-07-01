@@ -11,6 +11,24 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Gemma 2: Improving Open Language Models at a Practical Size</title>
+      <link>/publication/gemma2/</link>
+      <pubDate>Mon, 01 Jul 2024 00:00:00 +0200</pubDate>
+      
+      <guid>/publication/gemma2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>WARP: On the Benefits of Weight Averaged Rewarded Policies</title>
+      <link>/publication/warp/</link>
+      <pubDate>Mon, 24 Jun 2024 00:00:00 +0200</pubDate>
+      
+      <guid>/publication/warp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>WARM: On the Benefits of Weight Averaged Reward Models</title>
       <link>/publication/warm/</link>
       <pubDate>Mon, 29 Jan 2024 00:00:00 +0100</pubDate>
@@ -126,25 +144,6 @@
       
       <guid>/publication/core/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/2010.02849&#34; target=&#34;_blank&#34;&gt;https://arxiv.org/abs/2010.02849&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>OMNIA Faster R-CNN: Detection in the Wild through Dataset Merging and Soft Distillation</title>
-      <link>/publication/omnia/</link>
-      <pubDate>Sat, 01 Dec 2018 00:00:00 +0100</pubDate>
-      
-      <guid>/publication/omnia/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The Three-Body Problem trilogy</title>
-      <link>/books/three-body/</link>
-      <pubDate>Sun, 13 May 2018 00:00:00 +0200</pubDate>
-      
-      <guid>/books/three-body/</guid>
-      <description>&lt;p&gt;Bouquin unique, belle porte d&amp;rsquo;entrée à la hard sciences, qui plaira aux adeptes de SF comme aux fans de thrillers et aux ufologues. Premier tome d&amp;rsquo;une trilogie qui aura remporté le prix Hugo.&lt;/p&gt;
 </description>
     </item>
     
