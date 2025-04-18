@@ -13,6 +13,42 @@
     
     
     <item>
+      <title>Gemma 3 Technical Report</title>
+      <link>/publication/gemma3/</link>
+      <pubDate>Tue, 25 Mar 2025 00:00:00 +0100</pubDate>
+      
+      <guid>/publication/gemma3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On Teacher Hacking in Language Model Distillation</title>
+      <link>/publication/teacherhacking/</link>
+      <pubDate>Tue, 04 Feb 2025 00:00:00 +0100</pubDate>
+      
+      <guid>/publication/teacherhacking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Streaming DiLoCo with overlapping communication: Towards a Distributed Free Lunch</title>
+      <link>/publication/streamingdiloco/</link>
+      <pubDate>Thu, 30 Jan 2025 00:00:00 +0100</pubDate>
+      
+      <guid>/publication/streamingdiloco/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Diversity-Rewarded CFG Distillation</title>
+      <link>/publication/dlp/</link>
+      <pubDate>Tue, 08 Oct 2024 00:00:00 +0200</pubDate>
+      
+      <guid>/publication/dlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Gemma 2: Improving Open Language Models at a Practical Size</title>
       <link>/publication/gemma2/</link>
       <pubDate>Mon, 01 Jul 2024 00:00:00 +0200</pubDate>
@@ -153,7 +189,7 @@
       <pubDate>Mon, 01 Aug 2016 00:00:00 +0200</pubDate>
       
       <guid>/publication/weakly/</guid>
-      <description>https://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w32/Corbiere_Leveraging_Weakly_Annotated_ICCV_2017_paper.pdf</description>
+      <description></description>
     </item>
     
   </channel>
