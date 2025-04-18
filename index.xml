@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alexandre Ramé on Alexandre Ramé</title>
+    <link>/</link>
+    <description>Recent content in Alexandre Ramé on Alexandre Ramé</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0200</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Gemma 3 Technical Report</title>
+      <link>/publication/gemma3/</link>
+      <pubDate>Tue, 25 Mar 2025 00:00:00 +0100</pubDate>
+      
+      <guid>/publication/gemma3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On Teacher Hacking in Language Model Distillation</title>
+      <link>/publication/teacherhacking/</link>
+      <pubDate>Tue, 04 Feb 2025 00:00:00 +0100</pubDate>
+      
+      <guid>/publication/teacherhacking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Streaming DiLoCo with overlapping communication: Towards a Distributed Free Lunch</title>
+      <link>/publication/streamingdiloco/</link>
+      <pubDate>Thu, 30 Jan 2025 00:00:00 +0100</pubDate>
+      
+      <guid>/publication/streamingdiloco/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Diversity-Rewarded CFG Distillation</title>
+      <link>/publication/dlp/</link>
+      <pubDate>Tue, 08 Oct 2024 00:00:00 +0200</pubDate>
+      
+      <guid>/publication/dlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gemma 2: Improving Open Language Models at a Practical Size</title>
+      <link>/publication/gemma2/</link>
+      <pubDate>Mon, 01 Jul 2024 00:00:00 +0200</pubDate>
+      
+      <guid>/publication/gemma2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>WARP: On the Benefits of Weight Averaged Rewarded Policies</title>
+      <link>/publication/warp/</link>
+      <pubDate>Mon, 24 Jun 2024 00:00:00 +0200</pubDate>
+      
+      <guid>/publication/warp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>WARM: On the Benefits of Weight Averaged Reward Models</title>
+      <link>/publication/warm/</link>
+      <pubDate>Mon, 29 Jan 2024 00:00:00 +0100</pubDate>
+      
+      <guid>/publication/warm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Diverse and Efficient Ensembling of Deep Networks</title>
+      <link>/publication/phd/</link>
+      <pubDate>Wed, 11 Oct 2023 00:00:00 +0200</pubDate>
+      
+      <guid>/publication/phd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Beyond task performance: evaluating and reducing the flaws of large multimodal models with in-context-learning</title>
+      <link>/publication/icllmm/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0200</pubDate>
+      
+      <guid>/publication/icllmm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rewarded soups: towards Pareto-optimal alignment by interpolating weights fine-tuned on diverse rewards</title>
+      <link>/publication/rewardedsoups/</link>
+      <pubDate>Sun, 21 May 2023 00:00:00 +0200</pubDate>
+      
+      <guid>/publication/rewardedsoups/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>UnIVAL: Unified Model for Image, Video, Audio and Language Tasks</title>
+      <link>/publication/unival/</link>
+      <pubDate>Sat, 20 May 2023 00:00:00 +0200</pubDate>
+      
+      <guid>/publication/unival/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Model Ratatouille: Recycling Diverse Models for Out-of-Distribution Generalization</title>
+      <link>/publication/ratatouille/</link>
+      <pubDate>Tue, 20 Dec 2022 00:00:00 +0100</pubDate>
+      
+      <guid>/publication/ratatouille/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Diverse Weight Averaging for Out-of-Distribution Generalization</title>
+      <link>/publication/diwa/</link>
+      <pubDate>Fri, 20 May 2022 00:00:00 +0200</pubDate>
+      
+      <guid>/publication/diwa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DyTox: Transformers for Continual Learning with DYnamic TOken eXpansion</title>
+      <link>/publication/dytox/</link>
+      <pubDate>Tue, 07 Sep 2021 00:00:00 +0200</pubDate>
+      
+      <guid>/publication/dytox/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fishr: Invariant Gradient Variances for Out-of-Distribution Generalization</title>
+      <link>/publication/fishr/</link>
+      <pubDate>Tue, 07 Sep 2021 00:00:00 +0200</pubDate>
+      
+      <guid>/publication/fishr/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
